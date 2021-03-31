@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-page = requests.get("https://localhackday.mlh.io/local-hack-day-share-challenges")
+page = requests.get("PASTE YOUR LINK")
 
 soup = BeautifulSoup(page.content, 'html.parser')
 
